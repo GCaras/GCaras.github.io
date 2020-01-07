@@ -9,6 +9,7 @@ const NavBarContainer = styled.section`
     justify-content: space-evenly;
     height: 10.2vh;
     margin: 0 auto;
+    margin-top: 1vh;
     text-shadow: #ACDEF9 2px 2px;
     width: 98vw;
     @media (max-width: 600px) {
@@ -65,6 +66,7 @@ const TitleText = styled.h3`
 const LinkText = styled.h2`
     font-size: 20px;
     margin: 8px;
+    text-shadow: none;
 `
 
 const NavBar = () => {
@@ -79,9 +81,9 @@ const NavBar = () => {
                     </NavBarSection>
                 </NavBarTitleSection>
                 <NavBarLinks>
-                    <LinkText>Projects</LinkText>
-                    <LinkText>GitHub</LinkText>
-                    <LinkText>LinkedIn</LinkText>
+                    <LinkText id="projectsLink">Projects</LinkText>
+                    <LinkText id='githubLink'>GitHub</LinkText>
+                    <LinkText id='linkedinLink'>LinkedIn</LinkText>
                 </NavBarLinks>
             </NavBarContainer>
         </div>

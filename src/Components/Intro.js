@@ -16,12 +16,12 @@ const Introduction = styled.section`
 `
 
 const IntroHeader = styled.h1`
-    font-size: 28px;
+    font-size: 24px;
     margin: 0px;
 `
 
 const IntroText = styled.span`
-    font-size: 20px;
+    font-size: 16px;
     margin: 0px;
     text-shadow: none;
 `
@@ -36,6 +36,7 @@ const Intro = () => {
                     <IntroText>
                         I'm a community-oriented full-stack developer driven to create and implement the most efficient solutions that achieve the company and team goals. I've worked in the IT Consulting industry for over 5 years in back-office support and management. Using my past experiences to understand client pain points, I bring functional solutions featuring responsive interfaces to make everyone's job easier.
                     </IntroText>
+                    <br/>
                     <br/>
                     <IntroHeader>Who I Am...</IntroHeader>
                     <IntroText>

@@ -25,7 +25,7 @@ const ContactImage = styled.img`
     border: 3px solid black;
     height: auto;
     margin-bottom: 20px; 
-    width: 30vw;
+    width: 20vw;
 `
 
 const ContactText = styled.h1`
@@ -34,12 +34,12 @@ const ContactText = styled.h1`
 `
 
 const ContactSubText = styled.h3`
-    font-size: 26px;
+    font-size: 20px;
     margin: 0px;
 `
 
 const ContactSubTextFill = styled.span`
-    font-size: 20px;
+    font-size: 16px;
     margin: 0px;
 `
 
