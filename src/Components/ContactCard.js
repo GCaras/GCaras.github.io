@@ -1,4 +1,5 @@
 import React from 'react';
+import { Linking } from 'react';
 import styled from 'styled-components';
 import headshot from '../Images/headshot.png'
 
@@ -34,6 +35,7 @@ const ContactText = styled.h1`
 `
 
 const ContactSubText = styled.h3`
+    cursor: pointer;
     font-size: 20px;
     margin: 0px;
 `
@@ -49,13 +51,13 @@ const ContactCard = () => {
             <ContactContainer>
                 <ContactImage src={headshot}/>
                 <ContactText>Contact</ContactText>
-                <ContactSubText>
+                <ContactSubText onClick={() => window.open('mailto:gcaras0@gmail.com')}>
                     Email:
                     <ContactSubTextFill>
                         {" "}gcaras0@gmail.com
                     </ContactSubTextFill>
                 </ContactSubText>
-                <ContactSubText>
+                <ContactSubText onClick={() => window.open('tel:7039752084')}>
                     Phone:
                     <ContactSubTextFill>
                         {" "}(703) 975-2084
