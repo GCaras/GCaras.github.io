@@ -5,14 +5,18 @@ import ContactCard from './ContactCard'
 const IntroContainer = styled.section`
     align-items: center;
     display: flex;
-    text-shadow: #ACDEF9 2px 2px;
+    text-shadow: #ACDEF9 2px 2px 3px;
+    @media(max-width: 800px) {
+        padding: 20px 10px;
+        padding-right: 0px;
+    }
 `
 
 const Introduction = styled.section`
     align-items: center;
     width: 64vw;
     justify-content: center;
-    padding: 20px;
+    padding-right: 100px;
 `
 
 const IntroHeader = styled.h1`

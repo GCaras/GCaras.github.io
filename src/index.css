@@ -15,13 +15,13 @@ code {
 }
 
 #projectsLink {
-  text-shadow: #EA4647 .5px 1px;
+  text-shadow: #EA4647 .5px 1px 2px;
 }
 
 #githubLink {
-  text-shadow: #FFCD29 .5px 1px;
+  text-shadow: #FFCD29 .5px 1px 2px;
 }
 
 #linkedinLink {
-  text-shadow: #6DCC6D .5px 1px;
+  text-shadow: #6DCC6D .5px 1px 2px;
 }

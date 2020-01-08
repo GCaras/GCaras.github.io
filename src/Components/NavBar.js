@@ -10,7 +10,7 @@ const NavBarContainer = styled.section`
     height: 10.2vh;
     margin: 0 auto;
     margin-top: 1vh;
-    text-shadow: #ACDEF9 2px 2px;
+    text-shadow: #ACDEF9 2px 2px 3px;
     width: 98vw;
     @media (max-width: 600px) {
         align-items: center;

@@ -6,11 +6,11 @@ const ContactContainer = styled.div`
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 60vh;
     justify-content: center;
     margin: 5px;
     padding: 5px;
-    text-shadow: #ACDEF9 2px 2px;
+    text-shadow: #ACDEF9 2px 2px 3px;
     width: 34vw;
     @media (max-width: 600px) {
         align-items: center;
