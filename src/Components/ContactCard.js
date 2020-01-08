@@ -19,6 +19,13 @@ const ContactContainer = styled.div`
         height: 85vh;
         justify-content: center;
     }
+    @media (max-width: 400px) {
+        align-items: center;
+        flex-wrap: wrap;
+        height: 40vh;
+        justify-content: center;
+        width: 100vw;
+    }
 `
 
 const ContactImage = styled.img`
@@ -27,17 +34,34 @@ const ContactImage = styled.img`
     height: auto;
     margin-bottom: 20px; 
     width: 20vw;
+    @media (max-width: 400px) {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 50vw;
+    }
 `
 
 const ContactText = styled.h1`
     font-size: 32px;
     margin: 0px;
+    @media (max-width: 400px) {
+        font-size: 24px;
+    }
 `
 
 const ContactSubText = styled.h3`
     cursor: pointer;
     font-size: 20px;
     margin: 0px;
+    &:hover{
+        transform:scale(1.1);
+        z-index:1;
+    }
+    @media (max-width: 400px) {
+        font-size: 20px;
+        text-align: center;
+    }
 `
 
 const ContactSubTextFill = styled.span`

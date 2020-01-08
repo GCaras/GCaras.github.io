@@ -6,28 +6,41 @@ import youDueThumb from '../Images/YouDueThumb.png'
 import reactIcon from '../Images/reactIcon.svg'
 import nodeJsIcon from '../Images/nodeJsIcon.svg'
 
+const StyledPageHeader = styled.h3`
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    margin: 60px 0px 0px 0px;
+    text-shadow: 1px 1px 1px #5FBAE2;
+    @media (max-width: 760px) {
+        font-size: 20px;
+    }
+`
+
 const StyledProjectsContainer = styled.section`
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
+    min-height: 60vh;
     justify-content: space-around;
 `
 
 const StyledProjectHeader = styled.h3`
-    color: #17252A;
+    color: black;
     font-size: 24px;
     margin: 15px;
-    text-shadow: 1px 1px 1px #3AAFA9;
+    text-shadow: 1px 1px 1px #5FBAE2;
     @media (max-width: 760px) {
         font-size: 20px;
     }
 `
 
 const StyledProjectThumbnail = styled.img`
-    border: 5px solid #3AAFA9;
-    border-radius: 5%/10%;
+    border-top-left-radius: 17.5px;
+    border-top-right-radius: 17.5px;
     height: 180px;
-    width: 310px;
-    margin-bottom: 20px;
+    width: 330px;
+    margin-bottom: 0px;
     @media (max-width: 440px) {
         width: 300px;
     }
@@ -54,6 +67,10 @@ const StyledTechIcon = styled.img`
     height: 50px;
     margin: 0px 10px;
     width: auto;
+    &:hover{
+    transform:scale(1.1);
+    z-index:1;
+    }
     @media (max-width: 375px) {
         margin: 10px 5px;
     }
@@ -62,12 +79,13 @@ const StyledTechIcon = styled.img`
 const Projects = () => {
     return(
         <div>
+            <StyledPageHeader>Projects</StyledPageHeader>
             <StyledProjectsContainer>
                 <article className="flip-container">
                     <div className="flipper">
                         <div className="front">
-                            <StyledProjectHeader>Videogame Trivia!</StyledProjectHeader>
                             <StyledProjectThumbnail src={videoGameThumb} alt="Videogame Trivia"/>
+                            <StyledProjectHeader>Videogame Trivia!</StyledProjectHeader>
                             <StyledTechIcon src="https://image.flaticon.com/icons/svg/152/152843.svg"/>
                             <StyledTechIcon src="https://image.flaticon.com/icons/svg/732/732007.svg"/>
                             <StyledTechIcon src="https://image.flaticon.com/icons/svg/919/919828.svg"/>
@@ -92,8 +110,8 @@ const Projects = () => {
                 <article className="flip-container">
                     <div className="flipper">
                         <div className="front">
-                            <StyledProjectHeader>Trading Card Game Index</StyledProjectHeader>
                             <StyledProjectThumbnail src={tcgThumb} alt="TCG Index"/>
+                            <StyledProjectHeader>Trading Card Game Index</StyledProjectHeader>
                             <StyledTechIcon src={reactIcon}/>
                             <StyledTechIcon src={nodeJsIcon} />
                         </div>
@@ -118,8 +136,8 @@ const Projects = () => {
                 <article className="flip-container">
                     <div className="flipper">
                         <div className="front">
-                            <StyledProjectHeader>YouDue</StyledProjectHeader>
                             <StyledProjectThumbnail src={youDueThumb} alt="YouDue"/>
+                            <StyledProjectHeader>YouDue</StyledProjectHeader>
                             <StyledTechIcon src={reactIcon}/>
                             <StyledTechIcon src={nodeJsIcon} />
                         </div>

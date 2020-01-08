@@ -1,4 +1,5 @@
 a {
+  color: black;
   text-decoration: none;
 }
 
@@ -26,6 +27,10 @@ code {
   text-shadow: #6DCC6D .5px 1px 2px;
 }
 
+#resumeLink {
+  text-shadow: #5FBAE2 .5px 1px 3px;
+}
+
 .flip-container {
 	perspective: 1000px;
 }
@@ -35,7 +40,7 @@ code {
 	}
 
 .flip-container, .front, .back {
-	width: 420px;
+	width: 390px;
 	height: 400px;
 }
 
@@ -43,7 +48,6 @@ code {
 .flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
-
     position: relative;
     
 }
@@ -51,7 +55,6 @@ code {
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -60,13 +63,12 @@ code {
 /* front pane, placed above back */
 .front {
     align-items: center;
-    background: #DEF2F1;
-    border: 5px solid #3AAFA9;
+    background: rgb(227, 227, 227);
     border-radius: 5%;
-    color: #2B7A78;
+    box-shadow: rgb(97, 97, 97) 0px 0px 15px;
     margin: 20px;
     height: 350px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     text-align: center;
     width: 330px;
 	z-index: 2;
@@ -80,10 +82,9 @@ code {
 /* back, initially hidden pane */
 .back {
     align-items: center;
-    background: #DEF2F1;
-    border: 5px solid #3AAFA9;
+    background: rgb(227, 227, 227);
     border-radius: 5%;
-    color: #2B7A78;
+    box-shadow: rgb(97, 97, 97) 0px 0px 15px;
     margin: 20px;
     height: 350px;
     padding: 0 20px;
@@ -94,7 +95,7 @@ code {
 
 @media only screen and (max-width: 375px) {
     .flip-container, .front, .back {
-        width: 360px;
+        width: 370px;
         height: 420px;
         margin: 0px;
     }
@@ -102,13 +103,13 @@ code {
         height: 360px;
         margin: 0px;
         padding: 0px;
-        width: 350px;
+        width: 370px;
     }
     .back {
         height: 360px;
         margin: 0px;
         padding: 0px;
-        width: 350px;
+        width: 370px;
     }
     
 }

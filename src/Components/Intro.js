@@ -7,16 +7,20 @@ const IntroContainer = styled.section`
     display: flex;
     text-shadow: #ACDEF9 2px 2px 3px;
     @media(max-width: 800px) {
+        flex-direction: column;
         padding: 20px 10px;
-        padding-right: 0px;
     }
 `
 
 const Introduction = styled.section`
     align-items: center;
-    width: 64vw;
+    width: 95vw;
     justify-content: center;
     padding-right: 100px;
+    @media (max-width: 400px) {
+        margin: 10px;
+        padding-right: 0px;
+    }
 `
 
 const IntroHeader = styled.h1`
@@ -44,7 +48,7 @@ const Intro = () => {
                     <br/>
                     <IntroHeader>Who I Am...</IntroHeader>
                     <IntroText>
-                        I was born and raised in Northern Virginia. I enjoy spending time with my family and friends and exploring all that the area has to offer including dining, breweries, and sports! I'm a loyal DC sports fan (for better or worse) and religiously follow the Nationals, Capitals, and Redskins. I love binging Netflix series, watching movies, and playing videogames. Check out some of my projects below and you'll see what I mean!
+                        I was born and raised in Northern Virginia. I enjoy spending time with my family and friends and exploring all that the area has to offer including dining, breweries, and sports! I'm a loyal DC sports fan (for better or worse) and religiously follow the Nationals, Capitals, and Redskins. I love binging Netflix series, watching movies, and playing videogames. Check out some of my projects and you'll see what I mean!
                     </IntroText>
                 </Introduction>
             </IntroContainer>

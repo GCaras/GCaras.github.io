@@ -37,6 +37,9 @@ const StyledTechIcon = styled.img`
 
 const StyledTechTitle = styled.h4`
     margin: 0px 10px 20px 0px;
+    @media (max-width: 375px) {
+        margin: 0px 0px 20px 0px;
+    }
 `
 
 const Skills = () => {

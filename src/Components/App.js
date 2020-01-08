@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import Intro from './Intro';
 import Skills from './Skills';
@@ -8,9 +9,19 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <Intro/>
-      <Skills/>
-      <Projects/>
+      <Route
+      path='/'
+      exact
+      >
+        <Intro/>
+        <Skills/>
+      </Route>
+      <Route
+        path='/projects/'
+        exact
+      >
+        <Projects/>
+      </Route>
     </div>
   );
 }
