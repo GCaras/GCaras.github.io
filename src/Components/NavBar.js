@@ -24,6 +24,9 @@ const NavBarContainer = styled.section`
         flex-direction: column;
         justify-content: center;
     }
+    @media (max-width: 400px) {
+        height: 23vh;
+    }
 `
 
 const NavBarTitleSection = styled.div`

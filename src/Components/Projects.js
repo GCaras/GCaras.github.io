@@ -26,7 +26,7 @@ const StyledProjectsContainer = styled.section`
     display: flex;
     flex-wrap: wrap;
     min-height: 60vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
 `
 
 const StyledProjectHeader = styled.h3`
@@ -49,7 +49,7 @@ const StyledProjectThumbnail = styled.img`
         width: 330px;
     }
     @media (max-width: 350px) {
-        width: 260px;
+        width: 280px;
     }
 `
 

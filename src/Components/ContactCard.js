@@ -17,7 +17,7 @@ const ContactContainer = styled.div`
         flex-direction: column;
         height: 40vh;
         justify-content: center;
-        margin: 20px 0px;
+        margin: 50px 0px;
         width: 100vw;
     }
     @media (max-width: 600px) {
