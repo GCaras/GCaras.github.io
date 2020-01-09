@@ -9,9 +9,9 @@ import nodeJsIcon from '../Images/nodeJsIcon.svg'
 const StyledPageHeader = styled.h3`
     text-align: center;
     color: black;
-    font-size: 24px;
+    font-size: 32px;
     margin: 60px 0px 0px 0px;
-    text-shadow: 1px 1px 1px #5FBAE2;
+    text-shadow: 1px 1px 3px #5FBAE2;
     @media (max-width: 760px) {
         font-size: 20px;
     }
