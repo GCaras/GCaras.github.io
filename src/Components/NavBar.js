@@ -17,11 +17,12 @@ const NavBarContainer = styled.section`
         flex-direction: column;
         height: 20vh;
         justify-content: center;
+        margin-top: 40px;
     }
     @media (max-width: 400px) {
         align-items: center;
         flex-direction: column;
-        height: 30vh;
+        /* height: 30vh; */
         justify-content: center;
     }
 `
@@ -45,7 +46,7 @@ const NavBarSection = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    @media (max-width: 400px) {
+    @media (max-width: 750px) {
         align-items: center;
         flex-direction: column;
         justify-content: center;
@@ -62,6 +63,7 @@ const NavBarLinks = styled.div`
     @media (max-width: 750px) {
         padding-right: 0px;
         justify-content: center;
+        margin: 10px 0px;
         width: 100vw;
     }
     @media (max-width: 400px) {
@@ -92,9 +94,6 @@ const LinkText = styled.h2`
     &:hover{
         transform:scale(1.1);
         z-index:1;
-    }
-    @media (max-width: 400px) {
-        margin: 5px;
     }
 `
 

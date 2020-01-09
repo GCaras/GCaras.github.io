@@ -15,7 +15,7 @@ const ContactContainer = styled.div`
     @media (max-width: 900px) {
         align-items: center;
         flex-direction: column;
-        height: 30vh;
+        height: 40vh;
         justify-content: center;
         width: 100vw;
     }
@@ -39,6 +39,9 @@ const ContactImage = styled.img`
     height: auto;
     margin-bottom: 20px; 
     width: 20vw;
+    @media (max-width: 750px) {
+        width: 30vw;
+    }
     @media (max-width: 400px) {
         align-items: center;
         flex-direction: column;
