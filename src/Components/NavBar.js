@@ -61,7 +61,7 @@ const NavBarLinks = styled.div`
     justify-content: flex-end;
     padding-right: 50px;
     width: 45vw;
-    @media (max-width: 7500px) {
+    @media (max-width: 750px) {
         padding-right: 0px;
         justify-content: center;
         width: 100vw;
