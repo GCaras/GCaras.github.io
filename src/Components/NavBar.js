@@ -31,13 +31,11 @@ const NavBarTitleSection = styled.div`
     padding-left: 20px;
     width: 50vw;
     @media (max-width: 750px) {
-        padding-left: 0px;
-    }
-    @media (max-width: 400px) {
         align-items: center;
         flex-direction: column;
         height: 20vh;
         justify-content: center;
+        padding-left: 0px;
         width: 100vw;
     }
 `
