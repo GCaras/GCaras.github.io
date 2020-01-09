@@ -39,7 +39,7 @@ const ContactImage = styled.img`
     height: auto;
     margin-bottom: 20px; 
     width: 20vw;
-    @media (max-width: 750px) {
+    @media (max-width: 900px) {
         width: 30vw;
     }
     @media (max-width: 400px) {
