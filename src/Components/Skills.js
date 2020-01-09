@@ -9,11 +9,11 @@ const StyledSkillsArticle = styled.article`
     display: flex;
     font-size: 18px;
     justify-content: center;
-    margin: 20px 0px;
+    margin: 20px 5px;
     min-height: 20vh;
     text-align: center;
     text-shadow: #5FBAE2 1px 1px 3px;
-    width: 100vw;
+    width: 98vw;
     @media (max-width: 760px) {
     }
 `
@@ -35,16 +35,21 @@ const StyledTechIcon = styled.img`
     }
 `
 
+const SkillsHeader = styled.h4`
+    font-size: 32px;
+    margin: 0px;
+    text-align: center;
+    text-shadow: #5FBAE2 1px 1px 3px;
+`
+
 const StyledTechTitle = styled.h4`
-    margin: 0px 10px 20px 0px;
-    @media (max-width: 375px) {
-        margin: 0px 0px 20px 0px;
-    }
+    margin: 0px 0px 20px 0px;
 `
 
 const Skills = () => {
     return(
         <div>
+            <SkillsHeader>Skills</SkillsHeader>
             <StyledSkillsArticle>
                 <StyledSkillsIconContainer>
                     <div>

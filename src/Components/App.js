@@ -1,27 +1,25 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import Intro from './Intro';
 import Skills from './Skills';
 import Projects from './Projects';
+import styled from 'styled-components';
+
+const AppContainer = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`
 
 function App() {
   return (
     <div>
-      <NavBar/>
-      <Route
-      path='/'
-      exact
-      >
+      <AppContainer>
+        <NavBar/>
         <Intro/>
         <Skills/>
-      </Route>
-      <Route
-        path='/projects/'
-        exact
-      >
         <Projects/>
-      </Route>
+      </AppContainer>
     </div>
   );
 }

@@ -15,6 +15,10 @@ const StyledPageHeader = styled.h3`
     @media (max-width: 760px) {
         font-size: 20px;
     }
+    @media (max-width: 400px) {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
 `
 
 const StyledProjectsContainer = styled.section`
@@ -41,8 +45,8 @@ const StyledProjectThumbnail = styled.img`
     height: 180px;
     width: 330px;
     margin-bottom: 0px;
-    @media (max-width: 440px) {
-        width: 300px;
+    @media (max-width: 400px) {
+        width: 330px;
     }
     @media (max-width: 350px) {
         width: 260px;
@@ -96,11 +100,11 @@ const Projects = () => {
                                 <li>Responsively designed website trivia game that features Javascript, HTML, and CSS</li>
                                 <li>Utilizes Object Oriented Programming and DOM manipulation in JS to provide questions, validate answers, and provide information and feedback on selected answers</li>
                                 <StyledTechIconContainer>
-                                    <a target="_blank" href="https://gcaras.github.io/Project-1-Video-Game-Trivia/">
+                                    <a target="_blank" rel='noopener noreferrer' href="https://gcaras.github.io/Project-1-Video-Game-Trivia/">
                                         <StyledTechIcon src="https://image.flaticon.com/icons/svg/152/152843.svg"/>
                                     </a>
-                                    <a target="_blank" href="https://github.com/GCaras/Project-1-Video-Game-Trivia">
-                                    <StyledTechIcon src="https://image.flaticon.com/icons/svg/25/25657.svg" />
+                                    <a target="_blank" rel='noopener noreferrer' href="https://github.com/GCaras/Project-1-Video-Game-Trivia">
+                                        <StyledTechIcon src="https://image.flaticon.com/icons/svg/25/25657.svg" />
                                     </a>
                                 </StyledTechIconContainer>
                             </StyledProjectDesc>
@@ -122,11 +126,11 @@ const Projects = () => {
                                 <li>Full-Stack MERN(MongoDB, Express, Node, React) application with CRUD functionality</li>
                                 <li>Users can view, edit, and delete cards as well as create their own custom card.</li>
                                 <StyledTechIconContainer>
-                                    <a target="_blank" href="http://kanto.surge.sh/">
+                                    <a target="_blank" rel='noopener noreferrer' href="http://kanto.surge.sh/">
                                         <StyledTechIcon src={reactIcon}/>
                                     </a>
-                                    <a target="_blank" href="https://github.com/chriswehe/MernFrontEnd">
-                                    <StyledTechIcon src="https://image.flaticon.com/icons/svg/25/25657.svg" />
+                                    <a target="_blank" rel='noopener noreferrer' href="https://github.com/chriswehe/MernFrontEnd">
+                                        <StyledTechIcon src="https://image.flaticon.com/icons/svg/25/25657.svg" />
                                     </a>
                                 </StyledTechIconContainer>
                             </StyledProjectDesc>
@@ -148,11 +152,11 @@ const Projects = () => {
                                 <li>Utilizes Google APIs to populate search queries for media</li>
                                 <li>Allows users to select Books, Movies, and other media of interest and set reminders for these items on specific dates.</li>
                             <StyledTechIconContainer>
-                                    <a target="_blank" href="http://youdue.surge.sh/">
+                                    <a target="_blank" rel='noopener noreferrer' href="http://youdue.surge.sh/">
                                         <StyledTechIcon src={reactIcon}/>
                                     </a>
-                                    <a target="_blank" href="https://github.com/GCaras/Project-3-Dashboard">
-                                    <StyledTechIcon src="https://image.flaticon.com/icons/svg/25/25657.svg" />
+                                    <a target="_blank" rel='noopener noreferrer' href="https://github.com/GCaras/Project-3-Dashboard">
+                                        <StyledTechIcon src="https://image.flaticon.com/icons/svg/25/25657.svg" />
                                     </a>
                                 </StyledTechIconContainer>
                             </StyledProjectDesc>

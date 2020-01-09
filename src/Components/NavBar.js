@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import WebDevImg from '../Images/dev.png';
 
@@ -106,22 +105,21 @@ const NavBar = () => {
     return(
         <div>
             <NavBarContainer>
-                <Link to='/'>
-                    <NavBarTitleSection>
-                        <NavImage src={WebDevImg}/>
-                        <NavBarSection>
-                            <NameText>George Caras</NameText>
-                            <TitleText>Software Engineer</TitleText>
-                        </NavBarSection>
-                    </NavBarTitleSection>
-                </Link>
+                <NavBarTitleSection>
+                    <NavImage src={WebDevImg}/>
+                    <NavBarSection>
+                        <NameText>George Caras</NameText>
+                        <TitleText>Software Engineer</TitleText>
+                    </NavBarSection>
+                </NavBarTitleSection>
                 <NavBarLinks>
-                    <Link to='/projects/'>
-                        <LinkText id="projectsLink">Projects</LinkText>
-                    </Link>
-                    <LinkText id='githubLink'>GitHub</LinkText>
-                    <LinkText id='linkedinLink'>LinkedIn</LinkText>
-                    <a target='_blank' href='https://drive.google.com/file/d/15I8rDso6evaZ274yWDtWjiA7xkaAvNSj/view'>
+                    <a target='blank' rel='noopener noreferrer' href='https://github.com/GCaras'>
+                        <LinkText id='githubLink'>GitHub</LinkText>
+                    </a>
+                    <a target='blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/george-caras/'>
+                        <LinkText id='linkedinLink'>LinkedIn</LinkText>
+                    </a>
+                    <a target='_blank' rel="noopener noreferrer" href='https://drive.google.com/file/d/1djn9aycPQsKyoNzrWDPhtnh7wciJRdyn/view?usp=sharing'>
                         <LinkText id='resumeLink'>Resume</LinkText>
                     </a>
                 </NavBarLinks>

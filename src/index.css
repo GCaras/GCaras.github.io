@@ -15,20 +15,16 @@ code {
     monospace;
 }
 
-#projectsLink {
-  text-shadow: #EA4647 .5px 1px 2px;
-}
-
 #githubLink {
-  text-shadow: #FFCD29 .5px 1px 2px;
-}
-
-#linkedinLink {
   text-shadow: #6DCC6D .5px 1px 2px;
 }
 
+#linkedinLink {
+  text-shadow: #FFCD29 .5px 1px 2px;
+}
+
 #resumeLink {
-  text-shadow: #5FBAE2 .5px 1px 3px;
+  text-shadow: #EA4647 .5px 1px 3px;
 }
 
 .flip-container {
@@ -68,15 +64,11 @@ code {
     box-shadow: rgb(97, 97, 97) 0px 0px 15px;
     margin: 20px;
     height: 350px;
-    /* padding: 0 20px; */
     text-align: center;
     width: 330px;
 	z-index: 2;
 	/* for firefox 31 */
     transform: rotateY(0deg);
-    @media (max-width: 350px) {
-    
-    }
 }
 
 /* back, initially hidden pane */
@@ -93,23 +85,23 @@ code {
     transform: rotateY(180deg);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
     .flip-container, .front, .back {
-        width: 370px;
         height: 420px;
         margin: 0px;
+        width: 330px;
     }
     .front {
-        height: 360px;
+        height: 330px;
         margin: 0px;
         padding: 0px;
-        width: 370px;
+        width: 330px;
     }
     .back {
-        height: 360px;
+        height: 330px;
         margin: 0px;
         padding: 0px;
-        width: 370px;
+        width: 330px;
     }
     
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Linking } from 'react';
 import styled from 'styled-components';
 import headshot from '../Images/headshot.png'
 
@@ -21,9 +20,9 @@ const ContactContainer = styled.div`
     }
     @media (max-width: 400px) {
         align-items: center;
-        flex-wrap: wrap;
         height: 40vh;
         justify-content: center;
+        margin: 20px;
         width: 100vw;
     }
 `
