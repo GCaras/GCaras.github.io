@@ -9,6 +9,7 @@ const AppContainer = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100vw;
 `
 
 function App() {

@@ -15,14 +15,13 @@ const NavBarContainer = styled.section`
     @media (max-width: 750px) {
         align-items: center;
         flex-direction: column;
-        height: 20vh;
+        height: 21vh;
         justify-content: center;
         margin-top: 40px;
     }
     @media (max-width: 400px) {
         align-items: center;
         flex-direction: column;
-        /* height: 30vh; */
         justify-content: center;
     }
 `

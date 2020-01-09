@@ -9,7 +9,7 @@ const ContactContainer = styled.div`
     height: 60vh;
     justify-content: center;
     margin: 5px;
-    padding: 5px;
+    padding: 5px 0px;
     text-shadow: #ACDEF9 2px 2px 3px;
     width: 34vw;
     @media (max-width: 900px) {
@@ -17,6 +17,7 @@ const ContactContainer = styled.div`
         flex-direction: column;
         height: 40vh;
         justify-content: center;
+        margin: 20px 0px;
         width: 100vw;
     }
     @media (max-width: 600px) {
@@ -28,7 +29,7 @@ const ContactContainer = styled.div`
         align-items: center;
         height: 40vh;
         justify-content: center;
-        margin: 20px;
+        margin: 20px 0px;
         width: 100vw;
     }
 `
