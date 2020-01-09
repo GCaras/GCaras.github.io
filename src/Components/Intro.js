@@ -6,7 +6,7 @@ const IntroContainer = styled.section`
     align-items: center;
     display: flex;
     text-shadow: #ACDEF9 2px 2px 3px;
-    @media(max-width: 800px) {
+    @media(max-width: 900px) {
         flex-direction: column;
         padding: 20px 10px;
     }
@@ -17,8 +17,11 @@ const Introduction = styled.section`
     width: 95vw;
     justify-content: center;
     padding-right: 100px;
-    @media (max-width: 400px) {
+    @media (max-width: 1000px) {
         margin: 10px;
+
+    }
+    @media (max-width: 900px) {
         padding-right: 0px;
     }
 `

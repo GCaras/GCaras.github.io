@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import headshot from '../Images/headshot.png'
+import headshot from '../img/headshot.png'
 
 const ContactContainer = styled.div`
     align-items: center;
@@ -12,10 +12,16 @@ const ContactContainer = styled.div`
     padding: 5px;
     text-shadow: #ACDEF9 2px 2px 3px;
     width: 34vw;
+    @media (max-width: 900px) {
+        align-items: center;
+        flex-direction: column;
+        height: 30vh;
+        justify-content: center;
+        width: 100vw;
+    }
     @media (max-width: 600px) {
         align-items: center;
         flex-direction: column;
-        height: 85vh;
         justify-content: center;
     }
     @media (max-width: 400px) {

@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import tcgThumb from '../Images/TCGthumb.jpg'
-import videoGameThumb from '../Images/videogame-trivia-thumbnail.png'
-import youDueThumb from '../Images/YouDueThumb.png'
-import reactIcon from '../Images/reactIcon.svg'
-import nodeJsIcon from '../Images/nodeJsIcon.svg'
+import tcgThumb from '../img/TCGthumb.jpg'
+import videoGameThumb from '../img/videogame-trivia-thumbnail.png'
+import youDueThumb from '../img/YouDueThumb.png'
+import reactIcon from '../img/reactIcon.svg'
+import nodeJsIcon from '../img/nodeJsIcon.svg'
 
 const StyledPageHeader = styled.h3`
     text-align: center;

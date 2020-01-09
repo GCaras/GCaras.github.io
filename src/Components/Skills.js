@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import reactIcon from '../Images/reactIcon.svg';
-import nodeJsIcon from '../Images/nodeJsIcon.svg';
+import reactIcon from '../img/reactIcon.svg';
+import nodeJsIcon from '../img/nodeJsIcon.svg';
 
 const StyledSkillsArticle = styled.article`
     align-items: center;
@@ -14,8 +14,6 @@ const StyledSkillsArticle = styled.article`
     text-align: center;
     text-shadow: #5FBAE2 1px 1px 3px;
     width: 98vw;
-    @media (max-width: 760px) {
-    }
 `
 
 const StyledSkillsIconContainer = styled.div`
@@ -65,15 +63,15 @@ const Skills = () => {
                         <StyledTechTitle>Node</StyledTechTitle>
                     </div>
                     <div>
-                        <StyledTechIcon src="https://user-images.githubusercontent.com/11978772/40430921-73d53922-5e63-11e8-8dcd-1662136c3212.png" />
+                        <StyledTechIcon src="https://img.icons8.com/color/48/000000/mongodb.png" />
                         <StyledTechTitle>MongoDB</StyledTechTitle>
                     </div>
                     <div>
-                        <StyledTechIcon src="https://icon-library.net/images/python-icon/python-icon-18.jpg" />
+                        <StyledTechIcon src="https://img.icons8.com/color/48/000000/python.png" />
                         <StyledTechTitle>Python</StyledTechTitle>
                     </div>
                     <div>
-                        <StyledTechIcon src="https://icon-library.net/images/django-icon/django-icon-0.jpg" />
+                        <StyledTechIcon src="https://cdn.iconscout.com/icon/free/png-512/django-1-282754.png" />
                         <StyledTechTitle>Django</StyledTechTitle>
                     </div>
                     <div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import WebDevImg from '../Images/dev.png';
+import WebDevImg from '../img/dev.png';
 
 const NavBarContainer = styled.section`
     border-bottom: 2px solid lightgrey;
@@ -12,10 +12,10 @@ const NavBarContainer = styled.section`
     margin-top: 1vh;
     text-shadow: #ACDEF9 2px 2px 3px;
     width: 98vw;
-    @media (max-width: 600px) {
+    @media (max-width: 750px) {
         align-items: center;
         flex-direction: column;
-        height: 15vh;
+        height: 20vh;
         justify-content: center;
     }
     @media (max-width: 400px) {
@@ -30,7 +30,7 @@ const NavBarTitleSection = styled.div`
     display: flex;
     padding-left: 20px;
     width: 50vw;
-    @media (max-width: 600px) {
+    @media (max-width: 750px) {
         padding-left: 0px;
     }
     @media (max-width: 400px) {
@@ -58,11 +58,10 @@ const NavBarSection = styled.div`
 const NavBarLinks = styled.div`
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
     padding-right: 50px;
-    width: 50vw;
-    @media (max-width: 600px) {
+    width: 45vw;
+    @media (max-width: 7500px) {
         padding-right: 0px;
         justify-content: center;
         width: 100vw;
