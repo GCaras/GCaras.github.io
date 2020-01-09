@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.968d793f.chunk.css",
+    "main.js": "/static/js/main.bb0fd6e4.chunk.js",
+    "main.js.map": "/static/js/main.bb0fd6e4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0e39ac5d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0e39ac5d.js.map",
+    "static/js/2.b3123a6b.chunk.js": "/static/js/2.b3123a6b.chunk.js",
+    "static/js/2.b3123a6b.chunk.js.map": "/static/js/2.b3123a6b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b74976ec5a7b5c28b73d325f502e48a8.js": "/precache-manifest.b74976ec5a7b5c28b73d325f502e48a8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.968d793f.chunk.css.map": "/static/css/main.968d793f.chunk.css.map",
+    "static/js/2.b3123a6b.chunk.js.LICENSE": "/static/js/2.b3123a6b.chunk.js.LICENSE",
+    "static/media/TCGthumb.jpg": "/static/media/TCGthumb.f563f426.jpg",
+    "static/media/YouDueThumb.png": "/static/media/YouDueThumb.8f9613cb.png",
+    "static/media/dev.png": "/static/media/dev.3cbb4376.png",
+    "static/media/headshot.png": "/static/media/headshot.3a79a2a3.png",
+    "static/media/nodeJsIcon.svg": "/static/media/nodeJsIcon.9eed6032.svg",
+    "static/media/reactIcon.svg": "/static/media/reactIcon.d8cf7740.svg",
+    "static/media/videogame-trivia-thumbnail.png": "/static/media/videogame-trivia-thumbnail.10901a6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e39ac5d.js",
+    "static/js/2.b3123a6b.chunk.js",
+    "static/css/main.968d793f.chunk.css",
+    "static/js/main.bb0fd6e4.chunk.js"
+  ]
+}
