@@ -58,6 +58,10 @@ const StyledProjectDesc = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 5px;
+    @media (max-width: 350px) {
+        font-size: 15px;
+    }
 `
 
 const StyledTechIconContainer = styled.div`
@@ -76,7 +80,7 @@ const StyledTechIcon = styled.img`
     z-index:1;
     }
     @media (max-width: 375px) {
-        margin: 10px 5px;
+        margin: 0px 5px;
     }
 `
 
